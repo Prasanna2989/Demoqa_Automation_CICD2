@@ -24,6 +24,7 @@ public class HomePageUI {
         String title = driver.getTitle();
         System.out.println("Page title is: " + title);
         //Assert.assertTrue(title.contains("ToolsQA"), "Title doesn't match!");
+        System.out.println("Hello");
     }
 
     @AfterClass
